@@ -1,6 +1,6 @@
 {
 	"name": "technopathy",
-	"description": "Source code for my markdown-powered Physics blog built using SvelteKit",
+	"description": "Manuscripts and Runebooks documenting my studies of the modern dark arts of tech and computing. Built with SvelteKit and OpenProps.",
 	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
@@ -34,15 +34,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bkataru/physicsscribbles.git"
+		"url": "https://github.com/bkataru/technopathy.git"
 	},
 	"keywords": [],
 	"author": "Baalateja Kataru (bkataru)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/bkataru/physicsscribbles/issues"
+		"url": "https://github.com/bkataru/technopathy/issues"
 	},
-	"homepage": "https://physicsscribbles.github.io",
+	"homepage": "https://technopathy.github.io",
 	"dependencies": {
 		"@fontsource/jetbrains-mono": "^5.0.18",
 		"lucide-svelte": "^0.294.0",
