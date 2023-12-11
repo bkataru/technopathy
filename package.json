@@ -1,0 +1,51 @@
+{
+	"name": "technopathy",
+	"description": "Source code for my markdown-powered Physics blog built using SvelteKit",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin=prettier-plugin-svelte --check . && eslint .",
+		"format": "prettier --plugin=prettier-plugin-svelte --write ."
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^5.0.8",
+		"@sveltejs/adapter-auto": "2.1.1",
+		"@sveltejs/kit": "1.27.7",
+		"@types/cookie": "^0.6.0",
+		"@typescript-eslint/eslint-plugin": "^6.9.1",
+		"@typescript-eslint/parser": "^6.9.1",
+		"eslint": "^8.52.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.1",
+		"eslint-plugin-svelte": "next",
+		"prettier": "^3.0.3",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "^4.2.8",
+		"svelte-check": "^3.5.2",
+		"svelte-preprocess": "^5.1.0",
+		"tslib": "^2.6.2",
+		"typescript": "^5.2.2",
+		"vite": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bkataru/physicsscribbles.git"
+	},
+	"keywords": [],
+	"author": "Baalateja Kataru (bkataru)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bkataru/physicsscribbles/issues"
+	},
+	"homepage": "https://physicsscribbles.github.io",
+	"dependencies": {
+		"@fontsource/jetbrains-mono": "^5.0.18",
+		"lucide-svelte": "^0.294.0",
+		"open-props": "^1.6.16"
+	}
+}
